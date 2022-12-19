@@ -24,8 +24,8 @@ th {
     font-weight: bold;
 }
 
-.selected {
-    background-color: #dc3545;
+.selected: {
+    background-color: #21c98e;
     color: #FFF;
 }
 
@@ -44,7 +44,7 @@ th {
 }
 
 .text {
-    font-size: 1.4rem;
+    font-size: 2rem;
     text-align: center;
     color: white;
     
