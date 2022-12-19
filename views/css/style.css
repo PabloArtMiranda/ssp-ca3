@@ -36,7 +36,7 @@ th {
     flex-direction: column;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
                       url("https://newskillsacademy.co.uk/assets/cdn/media/2022-06/floristry-academy-b2329768067faf7d3dacafef0e994241.jpg");
-    height: 100vh;
+    height: 70vh;
     align-self: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +46,7 @@ th {
 }
 
 .text {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     color: white;
     
