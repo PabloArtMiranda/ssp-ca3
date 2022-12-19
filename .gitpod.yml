@@ -1,7 +1,6 @@
 tasks:
   - init: npm i http path express fs xslt-processor xml2js && node index.js
 
-tasks:
   - name: Start web server
     init: python -m http.server 8000
 
