@@ -10,6 +10,7 @@ table, th, td {
     border-collapse: collapse;
     border: 1px solid #ced4da;
     padding: 0.5rem;
+    cursor: pointer;
 }
 
 td, th {
@@ -24,9 +25,10 @@ th {
     font-weight: bold;
 }
 
-.selected: {
-    background-color: #21c98e;
-    color: #FFF;
+.selected {
+    background-color: #ececec;
+    color: #383838;
+    cursor: pointer;
 }
 
 .hero {

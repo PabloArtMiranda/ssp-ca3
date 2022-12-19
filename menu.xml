@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
-  <category name="Coffee">
+  <category name="Christmas">
     <item>
-      <listing>Espresso</listing>
-      <price>3.10</price>
-    </item>
-    <item>
-      <listing>Latte</listing>
-      <price>3.50</price>
+      <listing>Christmas Radiance</listing>
+      <price>36.99</price>
     </item>
     <item decaf="true">
-      <listing>Americano</listing>
-      <price>3.20</price>
+      <listing>Christmas Paradise</listing>
+      <price>34.99</price>
+    </item>
+    <item>
+      <listing>Winter Wonderland</listing>
+      <price>39.99</price>
     </item>
   </category>
-  <category name="Frappe">
+  <category name="Birthday">
     <item>
-      <listing>Salted Caramel Frappé</listing>
-      <price>4.50</price>
+      <listing>Birthday Bouquet</listing>
+      <price>49.99</price>
     </item>
     <item>
-      <listing>Pumpkin Spice Frappé</listing>
-      <price>5.00</price>
+      <listing>Nativity</listing>
+      <price>54.99</price>
     </item>
     <item decaf="true">
-      <listing>Mint Chocolate Frappé</listing>
-      <price>5.00</price>
+      <listing>Sweetness Light</listing>
+      <price>49.99</price>
     </item>
   </category>
-  <category name="Iced Coffee">
+  <category name="Anniversary">
     <item>
-      <listing>Iced Toasted Vanilla</listing>
-      <price>4.00</price>
+      <listing>The Orient</listing>
+      <price>42.99</price>
     </item>
     <item>
-      <listing>Iced Shaken Espresso</listing>
-      <price>3.80</price>
+      <listing>Fireside</listing>
+      <price>37.99</price>
     </item>
     <item decaf="true">
-      <listing>Iced Flat White</listing>
-      <price>4.10</price>
+      <listing>Winter Daze</listing>
+      <price>39.99</price>
     </item>
   </category>
-  <category name="Tea">
+  <category name="Thank You">
     <item>
-      <listing>Mint</listing>
-      <price>2.50</price>
+      <listing>Surprise</listing>
+      <price>39.99</price>
     </item>
     <item>
-      <listing>Green</listing>
-      <price>2.70</price>
+      <listing>Pop of Colour</listing>
+      <price>39.99</price>
     </item>
     <item decaf="true">
-      <listing>Breakfast</listing>
-      <price>2.50</price>
+      <listing>Signature Hatbox</listing>
+      <price>39.99</price>
     </item>
   </category>
-  <category name="Deserts">
+  <category name="New Baby">
     <item>
-      <listing>Chocolate Brownie</listing>
-      <price>4.50</price>
+      <listing>Paradise</listing>
+      <price>29.99</price>
     </item>
     <item>
-      <listing>Vanila Cheescake</listing>
-      <price>4.50</price>
+      <listing>Pink Basket</listing>
+      <price>39.99</price>
     </item>
     <item>
-      <listing>Carrot Cake</listing>
-      <price>5.00</price>
+      <listing>Purple Blooms</listing>
+      <price>36.99</price>
     </item>
   </category>
 </menu>
