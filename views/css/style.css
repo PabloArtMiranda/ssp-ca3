@@ -28,3 +28,28 @@ th {
     background-color: #dc3545;
     color: #FFF;
 }
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://newskillsacademy.co.uk/assets/cdn/media/2022-06/floristry-academy-b2329768067faf7d3dacafef0e994241.jpg");
+    height: 100vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+    
+}
+
+.text-center {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
