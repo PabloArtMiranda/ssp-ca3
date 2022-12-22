@@ -26,20 +26,20 @@ function calculateBill(idMenuTable) {
     return Math.round(fBillTotal * 100.0) / 100.0;
 };
 
-// This function either turns on or off the row highlighting for decaf
-// items (depending on the value of bShowDecaf)
-function highlightDecaf(idTable, bShowDecaf) {
-    // if bShowDecaf is true, then we're highlighting decaf
+// This function either turns on or off the row highlighting for deal
+// items (depending on the value of bShowdeal)
+function highlightdeal(idTable, bShowdeal) {
+    // if bShowdeal is true, then we're highlighting deal
     //	meals, otherwise we're unhighlighting them.
     var i = 0;
     var oTable = document.getElementById(idTable);
     var oTBODY = oTable.getElementsByTagName('TBODY')[0];
     var aTRs = oTBODY.getElementsByTagName('TR');
     // walk through each of the table rows and see if it has a 
-    // "decaf" attribute on it.
+    // "deal" attribute on it.
     for (i = 0; i < aTRs.length; i++) {
-        if (aTRs[i].getAttribute('decaf') && aTRs[i].getAttribute('decaf') == "true") {
-            if (bShowDecaf) {
+        if (aTRs[i].getAttribute('deal') && aTRs[i].getAttribute('deal') == "true") {
+            if (bShowdeal) {
                 aTRs[i].style.backgroundColor = "lightGreen";
             } else {
                 aTRs[i].style.backgroundColor = "";
@@ -64,7 +64,7 @@ window.addEventListener("load", function () {
     document.querySelector("#calcBill").addEventListener("click", function () {
         document.forms[0].txtBillAmt.value = calculateBill('menuTable');
     });
-    document.querySelector("#showDecaf").addEventListener("click", function () {
-        highlightDecaf('menuTable', this.checked);
+    document.querySelector("#showdeal").addEventListener("click", function () {
+        highlightdeal('menuTable', this.checked);
     });
 });

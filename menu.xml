@@ -5,7 +5,7 @@
       <listing>Christmas Radiance</listing>
       <price>36.99</price>
     </item>
-    <item decaf="true">
+    <item deal="true">
       <listing>Christmas Paradise</listing>
       <price>34.99</price>
     </item>
@@ -23,7 +23,7 @@
       <listing>Nativity</listing>
       <price>54.99</price>
     </item>
-    <item decaf="true">
+    <item deal="true">
       <listing>Sweetness Light</listing>
       <price>49.99</price>
     </item>
@@ -37,7 +37,7 @@
       <listing>Fireside</listing>
       <price>37.99</price>
     </item>
-    <item decaf="true">
+    <item deal="true">
       <listing>Winter Daze</listing>
       <price>39.99</price>
     </item>
@@ -51,7 +51,7 @@
       <listing>Pop of Colour</listing>
       <price>39.99</price>
     </item>
-    <item decaf="true">
+    <item deal="true">
       <listing>Signature Hatbox</listing>
       <price>39.99</price>
     </item>
